@@ -1,0 +1,24 @@
+@tailwind base;
+
+/* Write your own custom base styles here */
+
+
+/* Start purging... */
+
+@tailwind components;
+
+/* Stop purging. */
+
+
+/* Write your own custom component styles here */
+
+body {
+    @apply bg-primary;
+}
+
+
+/* Start purging... */
+
+@tailwind utilities;
+
+/* Stop purging. */
